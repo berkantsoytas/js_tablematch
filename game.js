@@ -121,7 +121,7 @@ const update = () => {
         ball.velocityX = direction * ball.speed * Math.cos(bounceAngel)
         ball.velocityY = ball.speed * Math.sin(bounceAngel)
 
-        ball.speed += 2
+        ball.speed += 1
     }
 
     if (ball.x > canvas.width) {
